@@ -4,11 +4,11 @@ function shortcut(s1, s2) {
 	let second = s2[0];
 	let ans = first + second;
 
-	if(s1.length!==0 && s2.length!==0) {
-		return ans;
+	if(s1.length!=0 || s2.length!=0) {
+		return '';
 	}
 	else {
-		return '';
+		return ans;
 	}
 }
 
